@@ -1,0 +1,72 @@
+/*GENERAL*/
+
+html {
+    box-sizing: border-box;
+  }
+body{
+    margin: 0;
+    background-color: black;
+}
+
+/*HEADER*/
+
+header{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+header h1{
+    font-family: 'Roboto', monospace;
+    color:burlywood;
+    text-align: center;
+    font-size: 400;
+}
+
+header i{
+    color: white;
+    padding: 20px 20px;
+}
+
+/*MAIN*/
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div article{
+    padding: 5px 5px;
+}
+
+.poster{
+    height: 400px;
+}
+
+article:hover{
+    border: 5px solid chartreuse;
+    padding: 0 0 0 0;
+
+
+}
+
+/*FOOTER*/
+
+
+/* MEDIA */
+
+@media (max-width: 337px){
+
+    header div h1{
+        display: none;
+    }
+
+    header i {
+        size: 10px;
+    }
+}
